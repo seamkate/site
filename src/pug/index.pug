@@ -4,5 +4,63 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
+    link(href="/src/img/logo_mono.png", rel="stylesheet")
   body
-    h1 Привет!
+    #colors.colors
+      .colorBlock
+        #darkShade100.colorBlock__item
+        .colorBlock_description
+          h2 Dark Shade 100%
+          p  #1F2041
+      .colorBlock
+        #darkShade75.colorBlock__item
+        .colorBlock_description
+          h2 Dark Shade 75%
+          p #1F2041
+      .colorBlock
+        #darkShade50.colorBlock__item
+        .colorBlock_description
+          h2 Dark Shade 50%
+          p #1F2041
+      .colorBlock
+        #darkShade25.colorBlock__item
+        .colorBlock_description
+          h2 Dark Shade 25%
+          p #1F2041        
+      .colorBlock
+        #darkShade5.colorBlock__item
+        .colorBlock_description
+          h2 Dark Shade 5%
+          p #1F2041    
+      .colorBlock
+        #purple.colorBlock__item
+        .colorBlock_description
+          h2 Purple
+          p #BC9CFF
+      .colorBlock
+        #green.colorBlock__item 
+        .colorBlock_description
+          h2 Green
+          p #6FCF97
+
+    .fonts
+      .font_block
+        .fontBlock__item
+          p.h1 H1
+        .fontBlock__description
+          h1 This one is the sub-section or widget title
+      .font_block
+        .fontBlock__item
+          p.h2 H2
+        .fontBlock__description
+          h2 Next one is the item title inside widgets
+      .font_block
+        .fontBlock__item
+          p.h3 H3
+        .fontBlock__description
+          h3 This is a label or CTA text
+      .font_block
+        .font_block_item
+          p.body Body
+        .fontBlock__description
+          p This is the body text which is used for most of the design, like paragraphs, lists, etc.

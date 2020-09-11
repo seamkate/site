@@ -1,5 +1,5 @@
-// import './.pug/index.pug'
-// import './.css/style.css'
+import '../pug/index.pug'
+import '../css/style.css'
 
 
 

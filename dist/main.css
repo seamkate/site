@@ -1,0 +1,83 @@
+h1 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.colorBlock {
+  width: 270;
+}
+
+p {
+  display: inline-block;
+}
+
+.color, #darkShade100, #darkShade75, #darkShade50, #darkShade25, #darkShade5, #purple, #green {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+#darkShade100 {
+  background-color: #1F2041;
+}
+
+#darkShade75 {
+  background-color: rgba(31, 32, 65, 0.75);
+}
+
+#darkShade50 {
+  background-color: rgba(31, 32, 65, 0.5);
+}
+
+#darkShade25 {
+  background-color: rgba(31, 32, 65, 0.25);
+}
+
+#darkShade5 {
+  background-color: rgba(31, 32, 65, 0.05);
+}
+
+#purple {
+  background-color: #BC9CFF;
+}
+
+#green {
+  background-color: #6FCF97;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=main.css.map*/

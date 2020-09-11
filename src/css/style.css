@@ -1,4 +1,158 @@
 h1 {
-  color: red;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1F2041;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+  color: #1F2041;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.colors {
+  margin-top: 145px;
+  margin-left: 150px;
+  position: fixed;
+  z-index: 3;
+}
+
+.colorBlock {
+  width: 270;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.colorBlock_description {
+  line-height: 29px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 40px;
+}
+
+.color, #darkShade100, #darkShade75, #darkShade50, #darkShade25, #darkShade5, #purple, #green {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+#darkShade100 {
+  background-color: #1F2041;
+}
+
+#darkShade75 {
+  background-color: rgba(31, 32, 65, 0.75);
+}
+
+#darkShade50 {
+  background-color: rgba(31, 32, 65, 0.5);
+}
+
+#darkShade25 {
+  background-color: rgba(31, 32, 65, 0.25);
+}
+
+#darkShade5 {
+  background-color: rgba(31, 32, 65, 0.05);
+}
+
+#purple {
+  background-color: #BC9CFF;
+}
+
+#green {
+  background-color: #6FCF97;
+}
+
+.fonts {
+  display: block;
+  position: fixed;
+  margin-top: 145px;
+  margin-left: 850px;
+  z-index: 2;
+}
+
+.font_block {
+  width: 405px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  padding-bottom: 50px;
+}
+
+.font_block_item {
+  display: inline-block;
+  color: rgba(31, 32, 65, 0.25);
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+p {
+  display: inline-block;
+  color: rgba(31, 32, 65, 0.25);
+  text-align: left;
+}
+
+.font_block_description {
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.h1 {
+  font-size: 24px;
+}
+
+.h2 {
+  font-size: 19px;
+}
+
+.h3 {
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
